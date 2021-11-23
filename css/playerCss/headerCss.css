@@ -1,0 +1,51 @@
+body {
+
+  font-family: 'Rakkas', 'cursive';
+}
+
+body,
+a {
+  text-shadow: 1px 1px black,
+    -1px -1px black;
+  color: yellow;
+}
+
+nav {
+  padding: 20px;
+
+}
+
+nav img {
+  max-width: 64px;
+  max-height: 64px;
+  object-fit: scale-down;
+  border-radius: 50%;
+}
+
+
+#header {
+  width: 100%;
+  height: 300px;
+  background: wheat;
+  background-size: 100%;
+  text-align: center;
+
+}
+
+#myNav img {
+  width: 140px;
+  border-radius: 50%;
+}
+
+#myNav {
+  transform: translateY(50px);
+  height: 100px;
+}
+
+#myNav h2 {
+  font-size: 30px;
+}
+
+#myNav p {
+  font-size: 20px;
+}

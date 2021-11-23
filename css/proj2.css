@@ -1,0 +1,89 @@
+body {
+    margin: 0px 50px !important;
+    background-image: linear-gradient(to right, rgb(193, 208, 241), rgb(124, 128, 134));
+    font-family: 'Rakkas', 'cursive';
+}
+
+h1,
+a,
+button {
+    color: white;
+    text-shadow: 2px 2px #19118f;
+
+}
+
+.btn-outline-success,
+.btn-outline-danger {
+    color: white;
+    text-shadow: 1px 1px blue,
+        -1px -1px blue;
+    background-color: rgba(0, 0, 0, 0.452);
+
+
+}
+
+.carousel-inner {
+    border-radius: 20%;
+    box-shadow: 5px 5px #0e2f5e8a;
+
+}
+
+.langActive {
+    background-color: black;
+}
+
+.btn-outline-success:hover,
+.btn-outline-danger:hover {
+    color: yellow;
+}
+
+button {
+    border: 2px solid rgb(175, 180, 165) !important;
+}
+
+button:hover {
+    border: 2px solid yellowgreen !important;
+}
+
+nav {
+    padding: 20px;
+}
+
+nav img {
+    max-width: 64px;
+    max-height: 64px;
+    object-fit: scale-down;
+    border-radius: 50%;
+}
+
+main {
+    text-align: center;
+}
+
+footer {
+    padding: 20px;
+}
+
+.card {
+
+    box-shadow: 5px 5px rgba(0, 0, 0, 0.384),
+        -5px -5px rgba(0, 0, 0, 0.384);
+}
+
+.arrowX {
+    color: black;
+    font-size: x-large;
+    text-shadow: 1px 2px yellow;
+    opacity: 75%;
+}
+
+.arrowX:hover {
+    opacity: 100%;
+}
+
+#MyCarousel {
+    position: relative;
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+}

@@ -1,0 +1,99 @@
+html {}
+
+body {
+    /* min-width:300px; */
+    margin: 0px 50px !important;
+    background-image: linear-gradient(to right, rgb(193, 208, 241), rgb(124, 128, 134));
+    font-family: 'Rakkas', 'cursive';
+
+}
+
+nav {
+    padding: 20px;
+}
+
+nav img {
+    max-width: 64px;
+    max-height: 64px;
+    object-fit: scale-down;
+    border-radius: 50%;
+}
+
+.card-header {
+    background: rgb(115, 105, 160);
+}
+
+main {
+    text-align: center;
+}
+
+#app {
+    width: 100%;
+    max-width: 100%;
+}
+
+#app p {
+    padding: 14px;
+    margin-top: 20px;
+}
+
+#app p,
+.card-header {
+
+    width: 100%;
+
+    background: rgb(115, 105, 160);
+    color: white;
+    text-shadow: 0.5px 0.5px black;
+    box-shadow: 2px 2px black;
+    text-align: center;
+    font-size: 22px;
+    border-radius: 15px;
+    border: 1px solid rgb(46, 34, 151);
+}
+
+
+#app textarea {
+    padding: 15px;
+    width: 100%;
+    border: 2px solid rgb(138, 138, 138);
+    outline: none;
+    border-radius: 14px;
+    min-height: 140px;
+}
+
+#selectX {
+    width: 30%;
+    padding: 14px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 14px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    text-align: center;
+    color: yellow;
+    text-shadow: 1px 1px red;
+    font-size: xx-large;
+    background-image: linear-gradient(to right, rgb(124, 128, 134), rgb(36, 38, 41));
+
+}
+
+#selectX *:hover {
+    cursor: pointer;
+}
+
+.myText {
+    margin-right: 15px;
+}
+
+@media (max-width:1076px) {
+    #selectX {
+        width: 75%;
+    }
+}
+
+@media (max-width:470px) {
+    #selectX {
+        width: 100%;
+    }
+}
