@@ -1,15 +1,18 @@
-article{
+article {
     text-align: center;
 }
-h2{
+
+h2 {
     margin-top: 15px;
 }
-#myButton{
+
+#myButton {
     display: flex;
     justify-content: center;
     padding-top: 20px;
 }
-#myButton img{
+
+#myButton img {
     margin: 0 15px;
     float: left;
     width: 45px;
@@ -23,39 +26,49 @@ input[type=range] {
     background: #e6e7e8;
     margin: 0px;
 }
-input[type=range]::-webkit-slider-thumb {  
+
+input[type=range]::-webkit-slider-thumb {
     height: 25px;
     width: 25px;
-    border-radius: 100%  100% 0% 0%;
-    border:3px solid rgba(73, 4, 4, 0.815);
+    border-radius: 100% 100% 0% 0%;
+    border: 3px solid rgba(73, 4, 4, 0.815);
     box-shadow: 1px 1px black;
     background: #968808;
     -webkit-appearance: none;
 }
-#myColors{
-    margin-top:15px;
+
+#myColors {
+    margin-top: 15px;
 }
-#myColors button{
+
+#myColors button {
     margin-top: 12px;
     width: 25px;
     height: 25px;
     border-radius: 50%;
-    border: 0px solid white;
-}
-#color-1{
-    background:#212020;
-}
-#color-2{
-    background:#721010;
-}
-#color-3{
-    background:#009688;
-}
-#color-4{
-    background:#222a4c;
+    border: 2px solid rgb(33, 88, 12);
 }
 
-footer{
+#color-1 {
+    background: #212020;
+}
+
+#color-2 {
+    background: #721010;
+}
+
+#color-3 {
+    background: #009688;
+}
+
+#color-4 {
+    background: #222a4c;
+}
+
+
+
+
+footer {
     height: 90px;
     background: white;
 }

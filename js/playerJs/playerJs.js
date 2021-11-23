@@ -97,7 +97,16 @@ class Player {
         this.audios[27] = "http://live.mp3quran.net:9994";
 
 
-        this.numberAudio = 0;
+
+        let numberx = localStorage.getItem("numberAudio")
+        if (numberx == null || isNaN(numberx)) {
+            localStorage.setItem("numberAudio", 0);
+            numberx = localStorage.getItem("numberAudio");
+        }
+
+        console.log("second Number=" + numberx);
+        this.numberAudio = numberx;
+
 
         this.next = document.getElementById("next");
         this.next.addEventListener("click", () => {
@@ -148,7 +157,7 @@ class Player {
         let link = this.audios[this.numberAudio]
         document.getElementById("radio-title").innerHTML = `<a target="_blank" href='${link}'>${caption}</a>`;
         document.getElementById("myFiles").src = link;
-
+        localStorage.setItem("numberAudio", this.numberAudio);
         this.play_pause();
     }
 

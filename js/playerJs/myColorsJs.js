@@ -27,9 +27,11 @@ class MyColors {
 
     selectColor(color) {
         this.header = document.getElementById("header");
+        // let btnColor = document.getElementsByClassName("btnColor");
         if (color == "color-1") {
             this.header.style.background = "rgb(27, 27, 27)";
             document.body.style.background = "rgb(27, 27, 27)";
+
         } else if (color == "color-2") {
             this.header.style.background = "#721010";
             document.body.style.background = "#721010";

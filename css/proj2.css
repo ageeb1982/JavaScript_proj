@@ -83,7 +83,19 @@ footer {
 
 #MyCarousel {
     position: relative;
-    width: 70%;
+    width: 80%;
     margin-left: auto;
     margin-right: auto;
+}
+
+@media (max-width:830px) {
+    #MyCarousel {
+        width: 100%;
+    }
+
+
+
+    .col-6 a {
+        font-size: 23px;
+    }
 }

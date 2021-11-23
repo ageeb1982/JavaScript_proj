@@ -8,6 +8,7 @@ body {
     text-shadow: 1px 2px red;
 
 }
+
 nav img {
     max-width: 64px;
     max-height: 64px;
@@ -34,5 +35,28 @@ h1 {
     height: 110%;
     border: 4px solid rgb(83, 230, 83);
     color: rgb(83, 230, 83);
+    ;
+}
 
+@media (max-width:1165px) {
+    .col-6 {
+        width: 75%;
+    }
+
+    .col-6 a {
+        font-size: 30px;
+    }
+}
+
+@media (max-width:850px) {
+    .col-6 {
+        width: 100%;
+
+    }
+
+
+
+    .col-6 a {
+        font-size: 23px;
+    }
 }
