@@ -92,3 +92,33 @@ input[type="color"i] {
     background-color: #175a0db8;
     border-radius: 30%;
 }
+
+@media (max-width:375px) {
+    #inside_box {
+        width: 330px !important;
+    }
+
+    #outside_box {
+        width: 95%;
+    }
+
+    #time {
+        font-size: 45px !important;
+
+    }
+}
+
+@media (max-width:320px) {
+    #inside_box {
+        width: 250px !important;
+    }
+
+    #outside_box {
+        width: 90%;
+    }
+
+    #time {
+        font-size: 35px !important;
+
+    }
+}
