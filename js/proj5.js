@@ -30,6 +30,12 @@ function getColor(oe) {
 
 function setColor() {
     var saveColor = localStorage.getItem("Color");
+    if (saveColor == null) {
+
+        saveColor = "blue";
+        localStorage.setItem("Color", saveColor);
+
+    }
     var nColor = `linear-gradient(to right, ${saveColor},white)`;
     // document.getElementById("setColor").value = saveColor;
     document.getElementById("time").style.backgroundImage = nColor;
