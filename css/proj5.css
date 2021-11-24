@@ -32,7 +32,8 @@ main {
     height: 100%;
     width: 100%;
     position: absolute;
-    top: 50%;
+    top: 80%;
+    margin-bottom: 0px;
     left: 50%;
     transform: translate(-50%, -50%);
     background: rgba(0, 0, 0, 0.514);
@@ -95,11 +96,13 @@ input[type="color"i] {
 
 @media (max-width:375px) {
     #inside_box {
-        width: 330px !important;
+        width: 295px !important;
     }
 
     #outside_box {
-        width: 95%;
+        width: 80%;
+        /* top: 60%; */
+
     }
 
     #time {
@@ -114,11 +117,23 @@ input[type="color"i] {
     }
 
     #outside_box {
-        width: 90%;
+        width: 80%;
     }
 
     #time {
         font-size: 35px !important;
 
+    }
+}
+
+@media (max-height:792px) {
+    #outside_box {
+        top: 75%;
+    }
+}
+
+@media (max-height:510px) {
+    #outside_box {
+        top: 70%;
     }
 }
