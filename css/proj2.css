@@ -88,14 +88,48 @@ footer {
     margin-right: auto;
 }
 
+@media (max-width:1440px) {
+    .arrowX {
+        font-size: xx-large;
+    }
+}
+
+@media (max-width:1024px) {
+    .arrowX {
+        font-size: x-large;
+    }
+}
+
 @media (max-width:830px) {
     #MyCarousel {
         width: 100%;
     }
 
-
-
     .col-6 a {
         font-size: 23px;
+    }
+}
+
+@media (max-width:768px) {
+    .arrowX {
+        font-size: large;
+    }
+}
+
+@media (max-width:425px) {
+    .arrowX {
+        font-size: small;
+    }
+}
+
+@media (max-width:375px) {
+    .arrowX {
+        font-size: x-small;
+    }
+}
+
+@media (max-width:320px) {
+    .arrowX {
+        font-size: xx-small;
     }
 }

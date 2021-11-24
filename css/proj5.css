@@ -2,14 +2,16 @@ body {
     margin: 0px 50px !important;
     background-image: linear-gradient(to right, rgb(193, 208, 241), rgb(124, 128, 134));
     font-family: 'Rakkas', 'cursive';
-    text-shadow: 2px 2px rgb(113, 221, 11),
-        -2px -2px rgb(113, 221, 11);
+    text-shadow: 1px 1px rgb(113, 221, 11),
+        -1px -1px rgb(113, 221, 11);
     color: black;
-
+    text-align: center;
+    ;
 }
 
 nav {
-    padding: 20px;
+    margin-top: 20px;
+    padding: 0px;
 }
 
 nav img {
@@ -17,6 +19,7 @@ nav img {
     max-height: 64px;
     object-fit: scale-down;
     border-radius: 50%;
+    /* display: block; */
 }
 
 main {
@@ -42,38 +45,39 @@ main {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    width: 340px;
-    height: 240px;
+    width: 380px;
+    height: 300px;
     text-align: center;
     align-items: center;
     border-radius: 50%;
+
 
     /* background-color: aqua; */
 }
 
 #time {
-
     width: 100%;
-    height: 200px;
+    height: 270px;
     top: 50%;
     left: 50%;
     color: rgb(0, 0, 0);
     font-size: 50px !important;
     /* font-family: 'Saira Stencil One', cursive; */
     background-color: black;
-    line-height: 200px !important;
+    line-height: 270px !important;
     border-radius: 50%;
 
 }
 
 #date {
     position: absolute;
-    top: 67%;
+    top: 76%;
     left: 26%;
     height: 40px;
-    background: aliceblue;
+    background: #f0f8ff4b;
     font-size: 22px;
-    border-radius: 64%;
+    border-radius: 50%;
+    line-height: 40px;
     width: 50%;
     /* font-family: 'Saira Stencil One', cursive; */
 }
@@ -84,6 +88,7 @@ main {
 }
 
 input[type="color"i] {
-    border: 0px solid black;
-    background-color: black;
+    border: 3px solid black;
+    background-color: #175a0db8;
+    border-radius: 30%;
 }

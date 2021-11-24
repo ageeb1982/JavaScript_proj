@@ -8,7 +8,9 @@ body {
     text-shadow: 1px 2px red;
 
 }
-
+nav{
+flex-direction: column;
+}
 nav img {
     max-width: 64px;
     max-height: 64px;
@@ -38,6 +40,21 @@ h1 {
     ;
 }
 
+@media (max-width:1440px) {
+    .col-6 {
+        width: 75%;
+
+    }
+
+    body {
+        padding: 50px;
+    }
+
+    .col-6 a {
+        font-size: 35px;
+    }
+}
+
 @media (max-width:1165px) {
     .col-6 {
         width: 75%;
@@ -48,15 +65,87 @@ h1 {
     }
 }
 
+@media (max-width:1024px) {
+    .col-6 {
+        width: 75%;
+    }
+
+    body {
+        padding: 50px;
+    }
+
+    .col-6 a {
+        font-size: 35px;
+    }
+}
+
 @media (max-width:850px) {
     .col-6 {
         width: 100%;
-
     }
 
-
+    body {
+        padding: 50px;
+    }
 
     .col-6 a {
         font-size: 23px;
+    }
+}
+
+@media (max-width:768px) {
+    .col-6 {
+        width: 80%;
+    }
+
+    body {
+        padding: 50px;
+    }
+
+    .col-6 a {
+        font-size: 30px;
+    }
+}
+
+
+@media (max-width:425px) {
+    .col-6 {
+        width: 100%;
+    }
+
+    body {
+        padding: 10px;
+    }
+
+    .col-6 a {
+        font-size: 23px;
+    }
+}
+
+@media (max-width:375px) {
+    .col-6 {
+        width: 100%;
+    }
+
+    body {
+        padding: 10px;
+    }
+
+    .col-6 a {
+        font-size: 20px;
+    }
+}
+
+@media (max-width:320px) {
+    .col-6 {
+        width: 100%;
+    }
+
+    body {
+        padding: 10px;
+    }
+
+    .col-6 a {
+        font-size: 17px;
     }
 }

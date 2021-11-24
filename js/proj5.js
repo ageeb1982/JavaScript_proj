@@ -30,10 +30,13 @@ function getColor(oe) {
 
 function setColor() {
     var saveColor = localStorage.getItem("Color");
+    var nColor = `linear-gradient(to right, ${saveColor},white)`;
     // document.getElementById("setColor").value = saveColor;
-    document.getElementById("time").style.background = saveColor;
-    document.getElementById("body").style.background = saveColor;
+    document.getElementById("time").style.backgroundImage = nColor;
+    document.getElementById("body").style.backgroundImage = nColor;
+
 }
 var saveColor = localStorage.getItem("Color");
+
 document.getElementById("setColor").value = saveColor;
 setInterval(setColor, 100);
